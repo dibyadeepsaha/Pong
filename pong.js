@@ -1,3 +1,4 @@
+/* MIT License - Copyright (c) 2020 - Dibyadeep Saha */
 var canvas = document.getElementById('gameCanvas'),
     canvasContext = canvas.getContext('2d'),
     ballPositionX = canvas.width / 2,
