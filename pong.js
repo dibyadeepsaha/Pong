@@ -150,11 +150,11 @@ function gameOver(playerWon) {
     gameMessage.textContent = '';
     againBtn.textContent = '';
     if (playerWon) {
-        gameMessage.textContent = 'You won!';
-        againBtn.textContent = 'Play again';
+        gameMessage.textContent = 'You Won!';
+        againBtn.textContent = 'Play Again?';
     } else {
-        gameMessage.textContent = 'Oh snap, you lost.';
-        againBtn.textContent = 'Try again';
+        gameMessage.textContent = 'You Lost!';
+        againBtn.textContent = 'Try Again?';
     }
     gameplay.className = '';
     gameOverMenu.className = 'active';
